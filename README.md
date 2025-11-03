@@ -65,17 +65,25 @@ Dropped unnecessary columns: PassengerId, Name, Ticket, Cabin
 
 ## Exploratory Data Analysis
 
-### Analyses Performed
+### Analyses Performed (Following up on Assignment 1)
+
 1. Summary statistics of all numerical variables
 2. Overall survival rate calculation
 3. Survival rate by gender
-4. Survival rate by passenger class
-5. Age distribution and survival by age group
+4. Survival rate by passenger class (Assignment 1 Question 2)
+5. Age distribution and survival by age group (Assignment 1 Question 5)
 6. Missing values analysis across all columns
-7. Fare statistics by passenger class
+7. Fare statistics by passenger class (Assignment 1 Question 1)
 8. Family size impact on survival
 9. Embarked port survival statistics
 10. Combined class and gender survival rates
+
+### Assignment 1 Follow-up Notes
+- Average fare by class analyzed in detail
+- Survival percentage by class calculated
+- Age group analysis performed with 10-year intervals
+- No passengers found matching exact Rose DeWitt Bukater criteria (17, female, 1st class, traveling with 1 parent)
+- Jack Dawson profile queries can be performed on filtered datasets
 
 ## Model Details
 
@@ -162,6 +170,7 @@ The program generates detailed output including:
 
 ### EDA (20 points)
 - 10 comprehensive statistical analyses performed
+- Followed up on Assignment 1 questions including fare analysis, survival rates by class, and age group patterns
 - Covered survival rates, demographics, missing values, and distributions
 
 ### Feature Engineering (30 points)
